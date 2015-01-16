@@ -1,0 +1,18 @@
+[submodule "prenagha-actions"]
+	path = prenagha-actions
+	url = https://github.com/prenagha/launchbar
+[submodule "nbjahan-actions"]
+	path = nbjahan-actions
+	url = https://github.com/nbjahan/launchbar-actions
+[submodule "facetheheat-actions"]
+	path = facetheheat-actions
+	url = https://github.com/facetheheat/LaunchBar/
+[submodule "launchbar-github"]
+	path = launchbar-github
+	url = https://github.com/Duhemm/launchbar-github
+[submodule "launchbar-ssh-action"]
+	path = launchbar-ssh-action
+	url = https://github.com/CyrilPeponnet/launchbar-ssh-action
+[submodule "launchbar-viscosity-vpn"]
+	path = launchbar-viscosity-vpn
+	url = https://github.com/ja-ab/launchbar-viscosity-vpn

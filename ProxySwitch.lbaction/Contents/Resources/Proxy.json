@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Glimmer Blocker",
+		"subtitle": "Ads Filter",
+		"proxy_ip": "127.0.0.1",
+		"proxy_port": "8228",
+		"proxy_type": "web",
+		"app": ""
+	},
+	{
+		"title": "Charles Proxy",
+		"subtitle": "Debugging Http Proxy",
+		"proxy_ip": "127.0.0.1",
+		"proxy_port": "50118",
+		"proxy_type": "web",
+		"app": "Charles.app"
+	},
+	{
+		"title": "Cellist",
+		"subtitle": "Debugging Http Proxy",
+		"proxy_ip": "127.0.0.1",
+		"proxy_port": "9396",
+		"proxy_type": "web",
+		"app": "Cellist.app"
+	},
+	{
+		"title": "Ftp Proxy",
+		"subtitle": "FTP Proxy",
+		"proxy_ip": "127.0.0.1",
+		"proxy_port": "9398",
+		"proxy_type": "ftp",
+		"app": "Transmit.app"
+	},
+	{
+		"title": "Socks 5 Proxy",
+		"subtitle": "Proxy via ssh",
+		"proxy_ip": "127.0.0.1",
+		"proxy_port": "7070",
+		"proxy_type": "socks",
+		"app": "SSH Proxy.app"
+	}
+]
