@@ -26,7 +26,10 @@ Display a list of user defined Proxy (json) and current status of Network Proxy 
 ### Installation
 Install and launch ``ProxySwitch.lbaction`` and edit ``UserProxy.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.agonia.proxyswitch/``
 
+Action retrieve the __admin password__ from __Keychain__. Open Keychain app and add a new Generic Password named ```ProxySwitch```
+
 __Tip:__ Press [ALT] key when you click on the action will display the "Action Support" Folder
+
 
 ### Define a proxy (UserProxy.json)
 * __title:__ Proxy Title.
