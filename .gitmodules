@@ -1,11 +1,11 @@
 [submodule "prenagha-actions"]
-	path = prenagha-actions
+	path = actions-by-prenagha
 	url = https://github.com/prenagha/launchbar
 [submodule "nbjahan-actions"]
-	path = nbjahan-actions
+	path = actions-by-nbjahan
 	url = https://github.com/nbjahan/launchbar-actions
 [submodule "facetheheat-actions"]
-	path = facetheheat-actions
+	path = actions-by-facetheheat
 	url = https://github.com/facetheheat/LaunchBar/
 [submodule "launchbar-github"]
 	path = launchbar-github
@@ -16,3 +16,9 @@
 [submodule "launchbar-viscosity-vpn"]
 	path = launchbar-viscosity-vpn
 	url = https://github.com/ja-ab/launchbar-viscosity-vpn
+[submodule "launchbar-uicolorconverter"]
+	path = launchbar-uicolorconverter
+	url = https://github.com/sebastianf/UIColorConverter
+[submodule "launchbar-timer"]
+	path = launchbar-timer
+	url = https://github.com/marc0janssen/Timer
