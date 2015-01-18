@@ -1,6 +1,11 @@
 # LaunchBar Actions Repo
-Actions repository for LaunchBar 6 
+My Actions repository for LaunchBar 6 
 
+* [Bluetooth Audio](#bluetoothaudio) 
+* [Proxy Switch](#proxyswitch) 
+* [Knock](#knock) 
+
+<a name="bluetoothaudio"></a>
 ## Bluetooth Audio
 
 List system paired Bluetooth Audio devices, connect and set system audio output. 
@@ -17,6 +22,7 @@ Install Switch Audio
     brew install switchaudio-osx
 ```
 
+<a name="proxyswitch"></a>
 ## Proxy Switch
 
 Display a list of user defined Proxy (json) and current status of Network Proxy Preferences (Ethernet).
@@ -38,3 +44,20 @@ __Tip:__ Press [ALT] key when you click on the action will display the "Action S
 * __proxy_port:__ Port number.
 * __proxy_type:__ Type : web, https, ftp or socks.
 * __app:__ Application name or path to launch.
+
+<a name="knock"></a>
+## Knock : Port Knocking
+Knock server port with knock from LaunchBar
+
+![Knock](./assets/knock.png "Port knocking on Mac OS X")
+
+Install and launch ``Knock.lbaction`` and edit ``KnockList.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.agonia.knock/``
+
+### Requirements
+Knock app in /usr/local/bin
+```shell
+brew install knock
+```
+
+__Tip:__ Press [ALT] key when you click on the action will display additional informations
+
