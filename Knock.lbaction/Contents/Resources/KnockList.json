@@ -1,0 +1,82 @@
+[
+	{
+		"title": "Raspberry",
+		"server_ip": "192.168.0.50",
+		"children": [
+			{
+				"title": "Open SSH Port",
+				"subtitle": "open ssh port on firewall",
+				"sequence": "7000:tcp,8000:tcp,9000:tcp",
+				"app": "iTerm"
+			},
+			{
+				"title": "Close SSH Port",
+				"subtitle": "close ssh port on firewall",
+				"sequence": "9000:tcp,8000:tcp,7000:tcp",
+				"app": "iTerm"
+			},
+			{
+				"title": "Launch VNC Server",
+				"subtitle": "launch x11vnc",
+				"sequence": "5000:tcp,7000:tcp,6000:tcp",
+				"app": ""
+			},
+			{
+				"title": "Stop VNC Server",
+				"subtitle": "stop x11vnc",
+				"sequence": "6000:tcp,7000:tcp,5000:tcp",
+				"app": ""
+			}
+		]
+	},
+	{
+		"title": "Awesome Server",
+		"server_ip": "mon.serveur.dev",
+		"children": [
+			{
+				"title": "Knock Sequence 01",
+				"subtitle": "Server knock definition",
+				"sequence": "8228:udp,7898:tcp,2398:udp",
+				"app": ""
+			},
+			{
+				"title": "Knock Sequence 02",
+				"subtitle": "Server knock definition",
+				"sequence": "8228:udp,7898:tcp,2398:udp",
+				"app": ""
+			},
+			{
+				"title": "Knock Sequence 03",
+				"subtitle": "Server knock definition",
+				"sequence": "8228:udp,7898:tcp,2398:udp",
+				"app": ""
+			}
+		]
+	},
+	{
+		"title": "Big Server",
+		"server_ip": "mon.serveur.dev",
+		"children": [
+			{
+				"title": "Knock Sequence 01",
+				"subtitle": "Server knock definition",
+				"sequence": "8228:udp,7898:tcp,2398:udp",
+				"app": ""
+			}
+		]
+	},
+	{
+		"title": "Knock Sequence A",
+		"subtitle": "I am a sequence at the root",
+		"server_ip": "myawesomeserver.com",
+		"sequence": "5000:tcp,7000:udp,6000:tcp",
+		"app": "TextEdit"
+	},
+	{
+		"title": "Knock Sequence B",
+		"subtitle": "I am a sequence at the root",
+		"server_ip": "myawesomeserver.com",
+		"sequence": "5000:tcp,7000:udp,6000:tcp",
+		"app": "TextEdit"
+	}
+]

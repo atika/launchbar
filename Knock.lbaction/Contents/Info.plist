@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Knock</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.agonia.knock</string>
+	<key>CFBundleIconFile</key>
+	<string>closed61Template@2x.png</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBTextInputTitle</key>
+	<string>Select an Option</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>KnockPort.rb</string>
+			<key>LBRequiresArgument</key>
+			<false/>
+			<key>LBLiveFeedbackEnabled</key>
+			<false/>
+			<key>LBRunInBackground</key>
+			<false/>
+			<key>LBReturnsResult</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBRequirements</key>
+		<string>Knock from http://www.zeroflux.org/projects/knock. Install with Brew.</string>
+		<key>LBAuthor</key>
+		<string>Dominique Da Silva</string>
+		<key>LBSummary</key>
+		<string>Knock your server from LaunchBar.</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/atika/LaunchBar-actions</string>
+		<key>LBTwitter</key>
+		<string>@domadp</string>
+	</dict>
+</dict>
+</plist>
