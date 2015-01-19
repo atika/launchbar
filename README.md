@@ -53,11 +53,51 @@ Knock server port with knock from LaunchBar
 
 Install and launch ``Knock.lbaction`` and edit ``KnockList.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.agonia.knock/``
 
+__Tip:__ Press [ALT] key when you click on the action will display additional informations
+
 ### Requirements
 Knock app in /usr/local/bin
 ```shell
 brew install knock
 ```
 
-__Tip:__ Press [ALT] key when you click on the action will display additional informations
+### Define a sequence
+* __title:__ LaunchBar menu title
+* __subtitle:__ LaunchBar menu subtitle
+* __server_ip:__ Server name or IP address
+* __sequence:__ comma separated list
+* __delay:__ delay in milliseconds between knock
+* __app:__ name of the app to launch
+
+```json
+[
+    {
+    "title": "Raspberry",
+    "server_ip": "192.168.0.50",
+    "children": [
+        {
+            "title": "My knock command",
+            "sequence": "5000:tcp,7000:tcp,6000:tcp",
+            "delay": 300,
+            "app":"MyAppToLaunch"
+        },
+        {
+            "title": "...",
+            "sequence": "..."
+        }
+    }
+]
+```
+or a sequence at root :
+```json
+[
+    {
+        "title": "My knock command",
+        "server_ip": "192.168.0.50",
+        "sequence": "5000:tcp,7000:tcp,6000:tcp",
+        "delay": 300,
+        "app":"MyAppToLaunch"
+    }
+]
+```
 

@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>Knock</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.agonia.knock</string>
 	<key>CFBundleIconFile</key>

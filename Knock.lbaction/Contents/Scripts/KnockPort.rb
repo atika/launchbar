@@ -2,7 +2,7 @@
 #	Knock Port Action for LaunchBar 6
 # 	Dominique Da Silva https://github.com/atika/LaunchBar-actions
 # 	January 2015
-#   v1.0
+#   v1.1
 #
 
 require 'json'
@@ -12,7 +12,7 @@ class Knacki
 
 	def initialize(jsonFile)		
 		
-		@version = 1.0
+		@version = 1.1
 
 		@knocklist = Array.new
 		@knocklist = JSON.parse( File.read( "#{jsonFile}" ) )
@@ -68,13 +68,15 @@ class Knacki
 		item = JSON.parse(item)
 		server_ip = item['server_ip'].to_s
 		sequence = item['sequence'].to_s
+		delay = item['delay'].to_s
 		app = item['app'].to_s
 
 		if !server_ip.empty? and !sequence.empty?
 			knockargs = Array.new
+			knockargs << "-d #{delay}" if !delay.empty?
 			knockargs << server_ip
 			knockargs << sequence.split(",")
-			system("/usr/bin/afplay \"#{@soundfile}\"")
+			system("/usr/bin/afplay -v 0.4 \"#{@soundfile}\" &")
 			system("/usr/local/bin/knock "+knockargs.join(' '))
 			launchapp(app) if !app.empty?
 		end
