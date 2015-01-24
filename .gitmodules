@@ -22,3 +22,6 @@
 [submodule "launchbar-timer"]
 	path = launchbar-timer
 	url = https://github.com/marc0janssen/Timer
+[submodule "actions-by-hlissner"]
+	path = actions-by-hlissner
+	url = https://github.com/hlissner/lb6-actions
