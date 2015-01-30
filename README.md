@@ -4,6 +4,7 @@ My Actions repository for LaunchBar 6
 * [Bluetooth Audio](#bluetoothaudio) 
 * [Proxy Switch](#proxyswitch) 
 * [Knock](#knock) 
+* [Date Convert](#dateconvert) 
 
 <a name="bluetoothaudio"></a>
 ## Bluetooth Audio
@@ -101,3 +102,11 @@ or a sequence at root :
 ]
 ```
 
+<a name="dateconvert"></a>
+## Date Convert
+
+Display date in __differents formats__ and convert _unix timestamp_ or date string. You can also __calculate an interval__, exemple: _+1d or -5h (h:hour, d:day, m:month)._
+
+Press space bar to enter a date and __clicking on the date__ put content on the clipboard.
+
+![Date Convert](./assets/dateconvert.png "Convert Unix Timestamp and date with Mac OS X Launchbar")
