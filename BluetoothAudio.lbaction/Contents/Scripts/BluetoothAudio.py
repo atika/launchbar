@@ -2,7 +2,7 @@
 #	Bluetooth Audio Action for LaunchBar 6
 # 	Dominique Da Silva https://github.com/atika
 # 	January 2015
-#   v1.0
+#   v1.1
 #	
 
 import objc
@@ -19,6 +19,10 @@ from IOBluetooth import *
 
 menu = []
 cmdkey = os.environ.get('LB_OPTION_ALTERNATE_KEY')
+
+switchaudiotest=os.system('test -x /usr/local/bin/SwitchAudioSource')
+if switchaudiotest != 0:
+	menu.append({"title":"SwitchAudio not found", "subtitle":"Please install SwitchAudio : brew install switchaudio-osx", "icon": "BottomBarStopTemplate.pdf"})	
 
 # NSUserNotification
 def notify(title, subtitle, info_text, delay=0, sound=False, userInfo={}):
@@ -67,8 +71,9 @@ for d in devices:
 	majorClass = d.deviceClassMajor()
 	deviceName = d.getNameOrAddress()
 	deviceTitle = deviceName + ' (connected)' if connected else deviceName
+	device = {}
+
 	if majorClass == 4:
-		device = {}
 		device['title'] = deviceTitle
 		device['name'] = deviceName
 		device['address'] = d.addressString()
@@ -76,4 +81,12 @@ for d in devices:
 		device['icon'] = 'AudioStreamTemplate.pdf'
 		device['actionRunsInBackground'] = False
 		menu.append( device )
+
+# Fallback, no audio device
+if len(menu) == 0:
+	menu.append({
+		"title": "No Bluetooth audio device found",
+		"icon": "BottomBarStopTemplate.pdf"
+	})
+
 print json.dumps( menu )

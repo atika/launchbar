@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>Bluetooth Audio</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.agonia.bluetoothaudio</string>
 	<key>CFBundleIconFile</key>
@@ -28,10 +28,6 @@
 			<false/>
 			<key>LBKeepWindowActive</key>
 			<false/>
-			<key>LBAcceptedArgumentTypes</key>
-			<array>
-				<string>string</string>
-			</array>
 			<key>LBReturnsResult</key>
 			<true/>
 		</dict>
