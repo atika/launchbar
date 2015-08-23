@@ -105,7 +105,7 @@ or a sequence at root :
 <a name="dateconvert"></a>
 ## Date Convert
 
-Display date in __differents formats__ and convert _unix timestamp_ or date string. You can also __calculate an interval__, exemple: _+1d or -5h (h:hour, d:day, m:month)._
+Display date in __differents formats__ and convert _unix timestamp_ or date string. You can also __calculate an interval__, example: _+1d or -5h (h:hour, d:day, m:month)._
 
 Press space bar to enter a date and __clicking on the date__ put content on the clipboard.
 
