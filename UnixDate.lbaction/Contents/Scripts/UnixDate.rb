@@ -38,6 +38,11 @@ class UnixDate
 			offset = date.to_i
 			actualdate = @thedate.to_time.to_i
 			@thedate = Time.at(actualdate+(offset*3600)).to_datetime
+		elsif /^[+-]+[0-9]+w/ =~ date
+			# Week Offset
+			today
+			offset = date.to_i * 7
+			@thedate = @thedate + offset
 		else
 			# Date string
 			begin
