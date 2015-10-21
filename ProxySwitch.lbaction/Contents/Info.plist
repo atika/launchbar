@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>Proxy Switch</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.1</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.inspira.proxyswitch</string>
 	<key>CFBundleIconFile</key>
@@ -49,7 +49,7 @@
 		<key>LBDownloadURL</key>
 		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction</string>
 		<key>LBChangelog</key>
-		<string></string>
+		<string>Added auto proxy</string>
 	</dict>
 </dict>
 </plist>

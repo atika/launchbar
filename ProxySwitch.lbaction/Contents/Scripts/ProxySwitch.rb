@@ -17,9 +17,10 @@ class Proxy
 		
 		@proxies = Array.new
 		@userProxies = Array.new
-		@definedType = ["web", "https", "ftp", "socks"]
+		@definedType = ["web", "auto", "https", "ftp", "socks"]
 		@proxiesCmd = {
 			"web" => { "setCmd" => "-setwebproxy", "getCmd" => "-getwebproxy", "stateCmd" => "-setwebproxystate" },
+			"auto" => { "setCmd" => "-setautoproxyurl", "getCmd" => "-getautoproxyurl", "stateCmd" => "-setautoproxystate" },
 			"https" => { "setCmd" => "-setsecurewebproxy", "getCmd" => "-getsecurewebproxy", "stateCmd" => "-setsecurewebproxy" },
 			"ftp" => { "setCmd" => "-setftpproxy", "getCmd" => "-getftpproxy", "stateCmd" => "-setftpproxystate" },
 			"socks" => { "setCmd" => "-setsocksfirewallproxy", "getCmd" => "-getsocksfirewallproxy", "stateCmd" => "-setsocksfirewallproxystate" }
@@ -46,12 +47,14 @@ class Proxy
 		@proxies.replace( @userProxies )
 
 		currentProxyWeb = currentProxy("web")
+		currentProxyAuto = currentProxy("auto")
 		currentProxyHttps = currentProxy("https")
 		currentProxyFtp = currentProxy("ftp")
 		currentProxySock = currentProxy("socks")
 
 		@proxies << currentProxyWeb if !currentProxyWeb.nil?
 		@proxies << currentProxyHttps if !currentProxyHttps.nil?
+		@proxies << currentProxyAuto if !currentProxyAuto.nil?
 		@proxies << currentProxyFtp if !currentProxyFtp.nil?
 		@proxies << currentProxySock if !currentProxySock.nil?
 
@@ -120,10 +123,17 @@ class Proxy
 		proxyCmd = IO.popen("/usr/sbin/networksetup "+getcmd+" Ethernet | head -n3")
 		proxyCmd.readlines.each(){ |s| current_proxy.push( s.split(':')[1].strip )}
 
-		penable = current_proxy[0]
-		pip = current_proxy[1]
-		pport = current_proxy[2]
-		ptitle = pip+'/'+pport+' '+titlePrefix
+		if proxy_type == "auto"
+			pip = current_proxy[0]
+			penable = current_proxy[1]
+			pport = ""
+			ptitle = pip+' **'+titlePrefix
+		else
+			penable = current_proxy[0]
+			pip = current_proxy[1]
+			pport = current_proxy[2]
+			ptitle = pip+'/'+pport+' '+titlePrefix
+		end
 
 		# return if proxy not defined
 		return nil if pip.empty?
