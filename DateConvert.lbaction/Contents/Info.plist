@@ -5,9 +5,9 @@
 	<key>CFBundleName</key>
 	<string>Date Convert</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.agonia.dateconvert</string>
+	<string>com.inspira.dateconvert</string>
 	<key>CFBundleIconFile</key>
 	<string>clockTemplate@2x.png</string>
 	<key>LBDebugLogEnabled</key>
@@ -46,6 +46,12 @@
 		<string>https://github.com/atika/LaunchBar-Actions</string>
 		<key>LBTwitter</key>
 		<string>@domadp</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/atika/LaunchBar-Actions/master/DateConvert.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/DateConvert.lbaction</string>
+		<key>LBChangelog</key>
+		<string></string>
 	</dict>
 </dict>
 </plist>

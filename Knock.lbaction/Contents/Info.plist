@@ -5,9 +5,9 @@
 	<key>CFBundleName</key>
 	<string>Knock</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.1.1</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.agonia.knock</string>
+	<string>com.inspira.knock</string>
 	<key>CFBundleIconFile</key>
 	<string>closed61Template@2x.png</string>
 	<key>LBDebugLogEnabled</key>
@@ -39,9 +39,15 @@
 		<key>LBSummary</key>
 		<string>Knock your server from LaunchBar.</string>
 		<key>LBWebsite</key>
-		<string>https://github.com/atika/LaunchBar-actions</string>
+		<string>https://github.com/atika/LaunchBar-Actions</string>
 		<key>LBTwitter</key>
 		<string>@domadp</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/atika/LaunchBar-Actions/master/Knock.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Knock.lbaction</string>
+		<key>LBChangelog</key>
+		<string></string>
 	</dict>
 </dict>
 </plist>

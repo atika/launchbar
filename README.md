@@ -6,6 +6,16 @@ My Actions repository for LaunchBar 6
 * [Knock](#knock) 
 * [Date Convert](#dateconvert) 
 
+---
+
+**21 octobre 2015 Update** 
+
+* Actions modified to use the **update system** from [Padraic Renaghan Actions](http://prenagha.github.io/launchbar/updates.html)
+* **Re-install all actions manually** and **install [Updates.lbaction](https://dl.dropboxusercontent.com/u/1094926/lbdist/Updates.lbaction)** to stay up-to-date later.
+* Changed the **Bundle ID** of all actions, **move your existing JSON configurations files** to the new bundle folder of each action : `~/Library/Application Support/LaunchBar/Action Support/`
+
+
+
 <a name="bluetoothaudio"></a>
 ## Bluetooth Audio
 
@@ -22,6 +32,11 @@ Install Switch Audio
 ```shell
     brew install switchaudio-osx
 ```
+
+### Download
+Bluetooth Audio Action: [BluetoothAudio.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/BluetoothAudio.lbaction)
+
+---
 
 <a name="proxyswitch"></a>
 ## Proxy Switch
@@ -45,6 +60,11 @@ __Tip:__ Press [ALT] key when you click on the action will display the "Action S
 * __proxy_port:__ Port number.
 * __proxy_type:__ Type : web, https, ftp or socks.
 * __app:__ Application name or path to launch.
+
+### Download
+Switch Proxy Action: [ProxySwitch.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction)
+
+---
 
 <a name="knock"></a>
 ## Knock : Port Knocking
@@ -102,6 +122,11 @@ or a sequence at root :
 ]
 ```
 
+### Download
+Knock Action: [Knock.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Knock.lbaction)
+
+---
+
 <a name="dateconvert"></a>
 ## Date Convert
 
@@ -110,3 +135,10 @@ Display date in __differents formats__ and convert _unix timestamp_ or date stri
 Press space bar to enter a date and __clicking on the date__ put content on the clipboard.
 
 ![Date Convert](./assets/dateconvert.png "Convert Unix Timestamp and date with Mac OS X Launchbar")
+
+### Download
+Date Convert Action: [DateConvert.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/DateConvert.lbaction)
+
+---
+
+
