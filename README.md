@@ -46,7 +46,7 @@ Display a list of user defined Proxy (json) and current status of Network Proxy 
 ![Switch Proxy](./assets/proxyswitch.png "Switch Proxy on Mac OS X")
 
 ### Installation
-Install and launch ``ProxySwitch.lbaction`` and edit ``UserProxy.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.agonia.proxyswitch/``
+Install and launch ``ProxySwitch.lbaction`` and edit ``UserProxy.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.inspira.proxyswitch/``
 
 Action retrieve the __admin password__ from __Keychain__. Open Keychain app and add a new Generic Password named ```ProxySwitch```
 
@@ -72,7 +72,7 @@ Knock server port with knock from LaunchBar
 
 ![Knock](./assets/knock.png "Port knocking on Mac OS X")
 
-Install and launch ``Knock.lbaction`` and edit ``KnockList.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.agonia.knock/``
+Install and launch ``Knock.lbaction`` and edit ``KnockList.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.inspira.knock/``
 
 __Tip:__ Press [ALT] key when you click on the action will display additional informations
 

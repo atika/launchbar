@@ -114,7 +114,7 @@ class UnixDate
 			})
 
 			# convert
-			json_result.push({'title'=> "Convert", 'subtitle'=>'convert a date', 'icon'=>'clockTemplate@2x.png', 'actionBundleIdentifier'=>'com.agonia.dateconvert' })
+			json_result.push({'title'=> "Convert", 'subtitle'=>'convert a date', 'icon'=>'clockTemplate@2x.png', 'actionBundleIdentifier'=>'com.inspira.dateconvert' })
 
 		end
 		json_result.to_json
