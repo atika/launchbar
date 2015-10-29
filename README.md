@@ -150,7 +150,7 @@ Use useragentstring.com to retrieve information about agent string.
 ![User Agent String](./assets/useragentstring.png "User Agent String for LaunchBar")
 
 ### Installation
-Doucle-click on ``UserAgentString.lbaction`` to install and paste your User Agent String and voila. (visit [useragentstring.com](useragentstring.com) for more details on your user agent string).
+Doucle-click on ``UserAgentString.lbaction`` to install and paste your User Agent String and voila. (visit [useragentstring.com](http://useragentstring.com) for more details on your user agent string).
 
 ### Download
 User Agent String: [UserAgentString.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/UserAgentString.lbaction)
