@@ -6,6 +6,7 @@ My Actions repository for LaunchBar 6
 * [Knock](#knock) 
 * [Date Convert](#dateconvert)
 * [User Agent String](#useragentstring)
+* [Send to Copied](#sendtocopied)
 
 ---
 
@@ -142,16 +143,20 @@ Date Convert Action: [DateConvert.lbaction](https://dl.dropboxusercontent.com/u/
 
 ---
 
-<a name="useragentstring"></a>
-## User Agent String
+<a name="sendtocopied"></a>
+## Send to Copied
 
-Use useragentstring.com to retrieve information about agent string.
+Send Image or Text to Copied app [copiedapp.com](http://copiedapp.com/).
 
-![User Agent String](./assets/useragentstring.png "User Agent String for LaunchBar")
+![Send to Copied](./assets/sendtocopiedapp.png "Send to Copied app for Mac OS X")
 
 ### Installation
-Doucle-click on ``UserAgentString.lbaction`` to install and paste your User Agent String and voila. (visit [useragentstring.com](http://useragentstring.com) for more details on your user agent string).
+Doucle-click on ``SendToCopied.lbaction`` to install and:
+
+* Send Text or Image file with **LaunchBar Instant Send** to "Send to Copied" action.
+* Press space to Enter text to copy.
+* Press enter to choose an Image file to send to Copied.
 
 ### Download
-User Agent String: [UserAgentString.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/UserAgentString.lbaction)
+Send to Copied: [SendToCopied.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/SendToCopied.lbaction)
 

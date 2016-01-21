@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.inspira.SendToCopied</string>
+	<key>CFBundleName</key>
+	<string>Send to Copied</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>cp, copied</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.udoncode.copiedmac</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Dominique Da Silva</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBRequirements</key>
+		<string>Require Copied for Mac.</string>
+		<key>LBSummary</key>
+		<string>Send text or image to Copied (copiedapp.com).</string>
+		<key>LBTwitter</key>
+		<string>@domadp</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/atika/launchbar</string>
+	</dict>
+	<key>LBDownloadURL</key>
+	<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/SendToCopied.lbaction</string>
+	<key>LBRequiredApplication</key>
+	<string>com.udoncode.copiedmac</string>
+	<key>LBRequirements</key>
+	<string>Require Copied for Mac.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+				<string>path</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>copied.rb</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Send to copied</string>
+	<key>LBUpdateURL</key>
+	<string>https://raw.githubusercontent.com/atika/launchbar/master/SendToCopied.lbaction/Contents/Info.plist</string>
+	<key>LBWebsite</key>
+	<string>https://github.com/atika/launchbar</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Dominique Da Silva</string>
+</dict>
+</plist>
