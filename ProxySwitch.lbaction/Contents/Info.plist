@@ -2,54 +2,54 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIconFile</key>
+	<string>ProxyTemplate@2x.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.inspira.proxyswitch</string>
 	<key>CFBundleName</key>
 	<string>Proxy Switch</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.inspira.proxyswitch</string>
-	<key>CFBundleIconFile</key>
-	<string>ProxyTemplate@2x.png</string>
+	<string>1.2</string>
 	<key>LBDebugLogEnabled</key>
 	<true/>
-	<key>LBTextInputTitle</key>
-	<string>Select an Option</string>
-	<key>LBScripts</key>
-	<dict>
-		<key>LBDefaultScript</key>
-		<dict>
-			<key>LBScriptName</key>
-			<string>ProxySwitch.rb</string>
-			<key>LBRequiresArgument</key>
-			<false/>
-			<key>LBLiveFeedbackEnabled</key>
-			<false/>
-			<key>LBRunInBackground</key>
-			<false/>
-			<key>LBAcceptedArgumentTypes</key>
-			<array>
-				<string>string</string>
-			</array>
-			<key>LBReturnsResult</key>
-			<true/>
-		</dict>
-	</dict>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
 		<string>Dominique Da Silva</string>
+		<key>LBChangelog</key>
+		<string>Added auto proxy</string>
+		<key>LBDownloadURL</key>
+		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction</string>
 		<key>LBSummary</key>
-		<string>Switch to a user defined Proxy and display network proxies status. Define your list on &quot;Action Support &gt; UserProxy.json&quot;. Interface: Ethernet. Proxy type: web, https, ftp, socks. Press Alt-Key to show Support Folder.</string>
-		<key>LBWebsite</key>
-		<string>https://github.com/atika/LaunchBar-Actions</string>
+		<string>Switch to a user defined Proxy and display network proxies status. Define your list on "Action Support &gt; UserProxy.json". Interface: Ethernet. Proxy type: web, https, ftp, socks. Press Alt-Key to show Support Folder.</string>
 		<key>LBTwitter</key>
 		<string>@domadp</string>
 		<key>LBUpdateURL</key>
-		<string>https://raw.githubusercontent.com/atika/LaunchBar-Actions/master/ProxySwitch.lbaction/Contents/Info.plist</string>
-		<key>LBDownloadURL</key>
-		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction</string>
-		<key>LBChangelog</key>
-		<string>Added auto proxy</string>
+		<string>https://raw.githubusercontent.com/atika/launchbar/master/ProxySwitch.lbaction/Contents/Info.plist</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/atika/launchbar</string>
 	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBLiveFeedbackEnabled</key>
+			<false/>
+			<key>LBRequiresArgument</key>
+			<false/>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<false/>
+			<key>LBScriptName</key>
+			<string>ProxySwitch.rb</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Select an Option</string>
 </dict>
 </plist>

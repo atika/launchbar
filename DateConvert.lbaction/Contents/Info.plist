@@ -2,56 +2,56 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIconFile</key>
+	<string>clockTemplate@2x.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.inspira.dateconvert</string>
 	<key>CFBundleName</key>
 	<string>Date Convert</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.inspira.dateconvert</string>
-	<key>CFBundleIconFile</key>
-	<string>clockTemplate@2x.png</string>
-	<key>LBDebugLogEnabled</key>
-	<true/>
-	<key>LBTextInputTitle</key>
-	<string>Date</string>
+	<string>1.0.2</string>
 	<key>LBAbbreviation</key>
 	<string>unix timestamp interval</string>
-	<key>LBScripts</key>
-	<dict>
-		<key>LBDefaultScript</key>
-		<dict>
-			<key>LBScriptName</key>
-			<string>UnixDate.rb</string>
-			<key>LBRequiresArgument</key>
-			<false/>
-			<key>LBLiveFeedbackEnabled</key>
-			<false/>
-			<key>LBRunInBackground</key>
-			<false/>
-			<key>LBAcceptedArgumentTypes</key>
-			<array>
-				<string>string</string>
-			</array>
-			<key>LBReturnsResult</key>
-			<true/>
-		</dict>
-	</dict>
+	<key>LBDebugLogEnabled</key>
+	<true/>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
 		<string>Dominique Da Silva</string>
+		<key>LBChangelog</key>
+		<string></string>
+		<key>LBDownloadURL</key>
+		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/DateConvert.lbaction</string>
 		<key>LBSummary</key>
 		<string>Displays a date in differents formats or convert one. Press space bar on the action to enter the date, can be unix timestamp or date string. You can also calculate the interval from the actual date: +1d, -1h (h:hour, d:day, m:month).</string>
-		<key>LBWebsite</key>
-		<string>https://github.com/atika/LaunchBar-Actions</string>
 		<key>LBTwitter</key>
 		<string>@domadp</string>
 		<key>LBUpdateURL</key>
-		<string>https://raw.githubusercontent.com/atika/LaunchBar-Actions/master/DateConvert.lbaction/Contents/Info.plist</string>
-		<key>LBDownloadURL</key>
-		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/DateConvert.lbaction</string>
-		<key>LBChangelog</key>
-		<string></string>
+		<string>https://raw.githubusercontent.com/atika/launchbar/master/DateConvert.lbaction/Contents/Info.plist</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/atika/launchbar</string>
 	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBLiveFeedbackEnabled</key>
+			<false/>
+			<key>LBRequiresArgument</key>
+			<false/>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<false/>
+			<key>LBScriptName</key>
+			<string>UnixDate.rb</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Date</string>
 </dict>
 </plist>

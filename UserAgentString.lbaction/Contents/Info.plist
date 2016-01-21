@@ -9,7 +9,7 @@
 	<key>CFBundleName</key>
 	<string>User Agent String</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>LBDebugLogEnabled</key>
 	<true/>
 	<key>LBDescription</key>
@@ -25,9 +25,9 @@
 		<key>LBTwitter</key>
 		<string>@domadp</string>
 		<key>LBUpdateURL</key>
-		<string>https://raw.githubusercontent.com/atika/LaunchBar-Actions/master/UserAgentString.lbaction/Contents/Info.plist</string>
+		<string>https://raw.githubusercontent.com/atika/launchbar/master/UserAgentString.lbaction/Contents/Info.plist</string>
 		<key>LBWebsite</key>
-		<string>https://github.com/atika/LaunchBar-Actions</string>
+		<string>https://github.com/atika/launchbar</string>
 	</dict>
 	<key>LBScripts</key>
 	<dict>

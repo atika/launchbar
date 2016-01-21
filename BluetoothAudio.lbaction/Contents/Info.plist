@@ -2,54 +2,54 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIconFile</key>
+	<string>/System/Library/PreferencePanes/Bluetooth.prefPane/Contents/Resources/AppIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.inspira.bluetoothaudio</string>
 	<key>CFBundleName</key>
 	<string>Bluetooth Audio</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.1</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.inspira.bluetoothaudio</string>
-	<key>CFBundleIconFile</key>
-	<string>/System/Library/PreferencePanes/Bluetooth.prefPane/Contents/Resources/AppIcon.icns</string>
+	<string>1.1.2</string>
 	<key>LBDebugLogEnabled</key>
 	<false/>
-	<key>LBTextInputTitle</key>
-	<string>Select an Option</string>
-	<key>LBScripts</key>
-	<dict>
-		<key>LBDefaultScript</key>
-		<dict>
-			<key>LBScriptName</key>
-			<string>BluetoothAudio.py</string>
-			<key>LBRequiresArgument</key>
-			<false/>
-			<key>LBLiveFeedbackEnabled</key>
-			<false/>
-			<key>LBRunInBackground</key>
-			<false/>
-			<key>LBKeepWindowActive</key>
-			<false/>
-			<key>LBReturnsResult</key>
-			<true/>
-		</dict>
-	</dict>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
 		<string>Dominique Da Silva</string>
-		<key>LBSummary</key>
-		<string>Connect a paired Bluetooth Audio device and switch system audio output. Press Alt-Key to disconnect device.</string>
-		<key>LBWebsite</key>
-		<string>https://github.com/atika/LaunchBar-Actions</string>
-		<key>LBTwitter</key>
-		<string>@domadp</string>
-		<key>LBRequirements</key>
-		<string>https://github.com/deweller/switchaudio-osx</string>
-		<key>LBUpdateURL</key>
-		<string>https://raw.githubusercontent.com/atika/LaunchBar-Actions/master/BluetoothAudio.lbaction/Contents/Info.plist</string>
-		<key>LBDownloadURL</key>
-		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/BluetoothAudio.lbaction</string>
 		<key>LBChangelog</key>
 		<string></string>
+		<key>LBDownloadURL</key>
+		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/BluetoothAudio.lbaction</string>
+		<key>LBRequirements</key>
+		<string>https://github.com/deweller/switchaudio-osx</string>
+		<key>LBSummary</key>
+		<string>Connect a paired Bluetooth Audio device and switch system audio output. Press Alt-Key to disconnect device.</string>
+		<key>LBTwitter</key>
+		<string>@domadp</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/atika/launchbar/master/BluetoothAudio.lbaction/Contents/Info.plist</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/atika/launchbar</string>
 	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<false/>
+			<key>LBLiveFeedbackEnabled</key>
+			<false/>
+			<key>LBRequiresArgument</key>
+			<false/>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<false/>
+			<key>LBScriptName</key>
+			<string>BluetoothAudio.py</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Select an Option</string>
 </dict>
 </plist>
