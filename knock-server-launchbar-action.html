@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Knock - Port Knocking | LaunchBar Actions and Themes by Dominique Da Silva</title>
+	
+	<meta name="keywords" content="knock,launchbar,mac,osx,port,port knocking,script,server,">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+</head>
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+
+<body>
+	<div class="page-container">
+		<div class="" id="bloc-0">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-md-3 col-lg-3 text-right col-left">
+						<a href="https://atika.github.io/launchbar" target="_blank"><img src="/launchbar_mac_logo.png" width="150" height="150" class=" fadeIn animated" /></a>
+						<h3 class="mg-md">
+							LaunchBar Stuff by Dominique Da Silva
+						</h3>
+						<p class="">
+							My GitHub Repository of LaunchBar 6 Actions and Themes.
+						</p>
+						<div class="github-link">
+							<span class="fa fa-github icon-md pull-right"></span>
+							<a href="https://github.com/atika/launchbar" class="a-btn pull-right github-btn" target="_blank">Show on GitHub</a>
+						</div>
+						<ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/action/">Action</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/theme/">Theme</a></li></ul>
+						<div class="search-separator hidden-xs"> </div>
+						<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="hidden" name="sitesearch" value="https://atika.github.io/launchbar"></form>
+					</div>
+					<div class="col-sm-8 col-md-9 col-lg-7 col-right">
+						<div id="site-article" class="article-entry">
+
+	<h1><a href="https://atika.github.io/launchbar/knock-server-launchbar-action.html">Knock - Port Knocking</a></h1>
+
+	<div class="clearfix"></div>
+	<p class="created"><b>Created</b><br> October 26, 2015</p>
+	<p class="updated"><b>Updated</b><br> January 27, 2016</p>
+	<div class="clearfix"></div>
+	
+	
+		<hr>
+		<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Requirements"><span class="toc-number">1.</span> <span class="toc-text">Requirements</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Define_a_sequence"><span class="toc-number">2.</span> <span class="toc-text">Define a sequence</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Download"><span class="toc-number">3.</span> <span class="toc-text">Download</span></a></li></ol>
+		<hr>
+	
+
+	<p>Knock server port with knock from LaunchBar</p>
+<a id="more"></a>
+<p><img src="./assets/knock.png" alt="Knock" title="Port knocking on Mac OS X"></p>
+<p>Install and launch <code>Knock.lbaction</code> and edit <code>KnockList.json</code> located in <code>~/Library/Application Support/LaunchBar/Action Support/com.inspira.knock/</code></p>
+<p><strong>Tip:</strong> Press [ALT] key when you click on the action will display additional informations</p>
+<h3 id="Requirements">Requirements</h3><p>Knock app in /usr/local/bin<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install knock</span><br></pre></td></tr></table></figure></p>
+<h3 id="Define_a_sequence">Define a sequence</h3><ul>
+<li><strong>title:</strong> LaunchBar menu title</li>
+<li><strong>subtitle:</strong> LaunchBar menu subtitle</li>
+<li><strong>server_ip:</strong> Server name or IP address</li>
+<li><strong>sequence:</strong> comma separated list</li>
+<li><strong>delay:</strong> delay in milliseconds between knock</li>
+<li><strong>app:</strong> name of the app to launch</li>
+</ul>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">    &#123;</span><br><span class="line">    "<span class="attribute">title</span>": <span class="value"><span class="string">"Raspberry"</span></span>,</span><br><span class="line">    "<span class="attribute">server_ip</span>": <span class="value"><span class="string">"192.168.0.50"</span></span>,</span><br><span class="line">    "<span class="attribute">children</span>": <span class="value">[</span><br><span class="line">        &#123;</span><br><span class="line">            "<span class="attribute">title</span>": <span class="value"><span class="string">"My knock command"</span></span>,</span><br><span class="line">            "<span class="attribute">sequence</span>": <span class="value"><span class="string">"5000:tcp,7000:tcp,6000:tcp"</span></span>,</span><br><span class="line">            "<span class="attribute">delay</span>": <span class="value"><span class="number">300</span></span>,</span><br><span class="line">            "<span class="attribute">app</span>":<span class="value"><span class="string">"MyAppToLaunch"</span></span><br><span class="line">        </span>&#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            "<span class="attribute">title</span>": <span class="value"><span class="string">"..."</span></span>,</span><br><span class="line">            "<span class="attribute">sequence</span>": <span class="value"><span class="string">"..."</span></span><br><span class="line">        </span>&#125;</span><br><span class="line">    &#125;</span><br><span class="line">]</span></span><br></pre></td></tr></table></figure>
+<p>or a sequence at root :<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">    &#123;</span><br><span class="line">        "<span class="attribute">title</span>": <span class="value"><span class="string">"My knock command"</span></span>,</span><br><span class="line">        "<span class="attribute">server_ip</span>": <span class="value"><span class="string">"192.168.0.50"</span></span>,</span><br><span class="line">        "<span class="attribute">sequence</span>": <span class="value"><span class="string">"5000:tcp,7000:tcp,6000:tcp"</span></span>,</span><br><span class="line">        "<span class="attribute">delay</span>": <span class="value"><span class="number">300</span></span>,</span><br><span class="line">        "<span class="attribute">app</span>":<span class="value"><span class="string">"MyAppToLaunch"</span></span><br><span class="line">    </span>&#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure></p>
+<h3 id="Download">Download</h3><p>Knock Action: <a href="https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Knock.lbaction" target="_blank" rel="external">Knock.lbaction</a></p>
+
+
+	<div class="clearfix"></div>
+	
+	  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knock/">knock</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/launchbar/">launchbar</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/">mac</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/osx/">osx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/port/">port</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/port-knocking/">port knocking</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/script/">script</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/server/">server</a></li></ul>
+	
+
+</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="footer">Crafted by <a href="https://inspira.io">inspira</a> in <a href="https://fr.wikipedia.org/wiki/Bordeaux" target="_blank">Bordeaux</a><br> Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> - Hosted by <a href="https://github.com/" target="_blank">GitHub</a>.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="/bootstrap/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/js/github-min.js" type="text/javascript"></script>
+</body>
+</html>
