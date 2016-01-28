@@ -1,7 +1,7 @@
 
 var winSize = '';
 
-function winUpdate() {
+var winUpdate = function () {
 	var newWinSize = 'xs';
 	if ($(this).width() >= 1200) { newWinSize = 'lg'; }
 	else if ($(this).width() >= 992) { newWinSize = 'md'; }
@@ -13,12 +13,14 @@ function winUpdate() {
 		if (winSize === "xs") {
 			$(".col-left, .col-right").height("");
 		}else{
-			$(".col-left, .col-right").height(Math.max($(".col-left").height(), $(".col-right").height()));
+			$(".col-left, .col-right").height("");
+			$(".col-left, .col-right").height(Math.max($(".col-left").height(), $(".col-right").height())+100);
 		}
 	}
-}
+};
 
-$(document).ready(function(){
+// $(document).ready(function(){
+$(window).on("load", function() {
 	window.onresize = winUpdate;
-	winUpdate();
+	window.setTimeout(winUpdate,500);
 });
