@@ -18,5 +18,7 @@ function winUpdate() {
 	}
 }
 
-window.onresize = winUpdate;
-winUpdate();
+$(document).ready(function(){
+	window.onresize = winUpdate;
+	winUpdate();
+});
