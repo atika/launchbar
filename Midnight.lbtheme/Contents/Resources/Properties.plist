@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>brightBlue</key>
+	<string>0.3529 0.7843 0.9804</string>
+	<key>defaultColor</key>
+	<string>#0457DA</string>
+	<key>defaultSelectedTextShadowColor@2x</key>
+	<string>clearColor</string>
+	<key>defaultTextColor</key>
+	<string>1 1 1 1</string>
+	<key>defaultTextShadowColor</key>
+	<string>1 1 1 0.07</string>
+	<key>inputAreaAbbreviationTextColor</key>
+	<string>#FFFFFF</string>
+	<key>inputAreaActionMenuAreaBackgroundColor</key>
+	<string>@defaultColor - 0.6</string>
+	<key>inputAreaActionMenuAreaTextShadowColor</key>
+	<string>clearColor</string>
+	<key>inputAreaBackgroundGradient</key>
+	<dict>
+		<key>0</key>
+		<string>#001f65</string>
+		<key>0.8</key>
+		<string>#000e2e10</string>
+	</dict>
+	<key>inputAreaDimmedTextColor</key>
+	<string>@defaultColor + 0.2</string>
+	<key>inputAreaHeight</key>
+	<string>58</string>
+	<key>inputAreaIconSize</key>
+	<string>42 42</string>
+	<key>inputAreaNonKeyWindowTextShadowColor</key>
+	<string>clearColor</string>
+	<key>inputAreaTextShadowColor</key>
+	<string>clearColor</string>
+	<key>inputAreaTextShadowOffset</key>
+	<integer>1</integer>
+	<key>itemListEdgeInsets</key>
+	<string>6 0 6 0</string>
+	<key>itemListGridLineGradient</key>
+	<dict>
+		<key>0.0</key>
+		<string>0 0 0 0</string>
+		<key>0.1</key>
+		<string>1 1 1 0.08</string>
+		<key>0.9</key>
+		<string>1 1 1 0.08</string>
+		<key>1.0</key>
+		<string>0 0 0 0</string>
+	</dict>
+	<key>itemListIconPaddingLeft</key>
+	<integer>13</integer>
+	<key>itemListIconSize</key>
+	<string>40 40</string>
+	<key>itemListNavigationArrowAreaWidth</key>
+	<integer>35</integer>
+	<key>itemListNavigationArrowPaddingRight</key>
+	<integer>12</integer>
+	<key>itemListRowHeight</key>
+	<integer>50</integer>
+	<key>itemListSelectedSubtitleFontName@1x</key>
+	<string>@itemListSubtitleFontName</string>
+	<key>itemListSelectedSubtitleTextColor</key>
+	<string>#FFFFFFCC</string>
+	<key>itemListSelectedTitleFontName@1x</key>
+	<string>@itemListTitleFontName</string>
+	<key>itemListSelectedTitleShadowColor</key>
+	<string>0 0 1 0.5</string>
+	<key>itemListSelectionCornerRadius</key>
+	<integer>0</integer>
+	<key>itemListSelectionHighlightColor</key>
+	<string>#0009e599</string>
+	<key>itemListSelectionSubsearchHighlightColor</key>
+	<string>#0009e599</string>
+	<key>itemListSeparatorLowerLineColor</key>
+	<string>clearColor</string>
+	<key>itemListSeparatorLowerLineThickness</key>
+	<integer>0</integer>
+	<key>itemListSeparatorUpperLineColor</key>
+	<string>1 1 1 0.09</string>
+	<key>itemListSeparatorUpperLineThickness</key>
+	<integer>1</integer>
+	<key>itemListSubtitleBaselineOffset</key>
+	<integer>0</integer>
+	<key>itemListSubtitleFontSize</key>
+	<string>13</string>
+	<key>itemListSubtitleTextColor</key>
+	<string>#5966e5</string>
+	<key>itemListTitleBaselineOffset</key>
+	<string>1</string>
+	<key>itemListTitleTextColor</key>
+	<string>#dff1ff</string>
+	<key>templateIconSelectedShadow</key>
+	<string>#007fe555</string>
+	<key>templateIconSelectedShadowBlurRadius</key>
+	<integer>10</integer>
+	<key>templateIconSelectedTintColor</key>
+	<string>#FFF</string>
+	<key>templateIconTintColor</key>
+	<string>#0052ff</string>
+	<key>textInputBackgroundColor</key>
+	<string>@defaultColor - 0.9</string>
+	<key>textInputEdgeInsets</key>
+	<string>12 6 8 6</string>
+	<key>textInputFocusRingColor</key>
+	<string>@defaultColor + 0.2</string>
+	<key>textInputFocusRingLineWidth</key>
+	<integer>1</integer>
+	<key>textInputInactiveFocusRingColor</key>
+	<string>@defaultColor - 0.5</string>
+	<key>textInputSelectedTextBackgroundColor</key>
+	<string>#443aff</string>
+	<key>windowBackgroundBlurRadius</key>
+	<integer>10</integer>
+	<key>windowBackgroundColor</key>
+	<string>#04061cEE</string>
+	<key>windowCornerRadius</key>
+	<integer>8</integer>
+	<key>windowDefaultWidth</key>
+	<string>650</string>
+	<key>windowHasInnerShadow</key>
+	<true/>
+	<key>windowInnerShadowColor</key>
+	<string>0 0 1 0.5</string>
+	<key>windowMinimumWidth</key>
+	<integer>600</integer>
+	<key>windowShadowStyle</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,25 +1,32 @@
-# LaunchBar Actions Repo
-My Actions repository for LaunchBar 6 
+# LaunchBar Actions and Themes Repo
+My LaunchBar 6 Repository for Actions/Themes.
 
-* [Bluetooth Audio](#bluetoothaudio) 
-* [Proxy Switch](#proxyswitch) 
-* [Knock](#knock) 
-* [Date Convert](#dateconvert)
-* [User Agent String](#useragentstring)
-* [Send to Copied](#sendtocopied)
+# Table of Content
+- [Bluetooth Audio](#bluetooth-audio)
+     - [Requirements](#requirements)
+     - [Download](#download)
+- [Date Convert](#date-convert)
+     - [Download](#download)
+- [Knock - Port Knocking](#knock---port-knocking)
+     - [Requirements](#requirements)
+     - [Define a sequence](#define-a-sequence)
+     - [Download](#download)
+- [LaunchBar Midnight Theme](#launchbar-midnight-theme)
+     - [Download](#download)
+- [Proxy Switch](#proxy-switch)
+     - [Installation](#installation)
+     - [Define a proxy (UserProxy.json)](#define-a-proxy-(userproxy.json))
+     - [Download](#download)
+- [Send to Copied](#send-to-copied)
+     - [Installation](#installation)
+     - [Download](#download)
 
----
-
-**21 octobre 2015 Update** 
-
-* Actions modified to use the **update system** from [Padraic Renaghan Actions](http://prenagha.github.io/launchbar/updates.html)
-* **Re-install all actions manually** and **install [Updates.lbaction](https://dl.dropboxusercontent.com/u/1094926/lbdist/Updates.lbaction)** to stay up-to-date later.
-* Changed the **Bundle ID** of all actions, **move your existing JSON configurations files** to the new bundle folder of each action : `~/Library/Application Support/LaunchBar/Action Support/`
 
 
 
-<a name="bluetoothaudio"></a>
-## Bluetooth Audio
+--------------------
+
+##Bluetooth Audio
 
 List system paired Bluetooth Audio devices, connect and set system audio output. 
 
@@ -38,39 +45,32 @@ Install Switch Audio
 ### Download
 Bluetooth Audio Action: [BluetoothAudio.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/BluetoothAudio.lbaction)
 
----
-
-<a name="proxyswitch"></a>
-## Proxy Switch
-
-Display a list of user defined Proxy (json) and current status of Network Proxy Preferences (Ethernet).
-
-![Switch Proxy](./assets/proxyswitch.png "Switch Proxy on Mac OS X")
-
-### Installation
-Install and launch ``ProxySwitch.lbaction`` and edit ``UserProxy.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.inspira.proxyswitch/``
-
-Action retrieve the __admin password__ from __Keychain__. Open Keychain app and add a new Generic Password named ```ProxySwitch```
-
-__Tip:__ Press [ALT] key when you click on the action will display the "Action Support" Folder
 
 
-### Define a proxy (UserProxy.json)
-* __title:__ Proxy Title.
-* __subtitle:__ Additional information.
-* __proxy_ip:__ IP Address.
-* __proxy_port:__ Port number.
-* __proxy_type:__ Type : web, https, ftp or socks.
-* __app:__ Application name or path to launch.
+
+--------------------
+
+##Date Convert
+
+Display date in __differents formats__ and convert _unix timestamp_ or date string. You can also __calculate an interval__, example: _+1d or -5h (h:hour, d:day, w:week, m:month)._
+
+Press space bar to enter a date and __clicking on the date__ put content on the clipboard.
+
+![Date Convert](./assets/dateconvert.png "Convert Unix Timestamp and date with Mac OS X Launchbar")
 
 ### Download
-Switch Proxy Action: [ProxySwitch.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction)
+Date Convert Action: [DateConvert.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/DateConvert.lbaction)
 
----
 
-<a name="knock"></a>
-## Knock : Port Knocking
+
+
+--------------------
+
+##Knock - Port Knocking
+
 Knock server port with knock from LaunchBar
+
+<!-- more -->
 
 ![Knock](./assets/knock.png "Port knocking on Mac OS X")
 
@@ -127,24 +127,56 @@ or a sequence at root :
 ### Download
 Knock Action: [Knock.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Knock.lbaction)
 
----
 
-<a name="dateconvert"></a>
-## Date Convert
 
-Display date in __differents formats__ and convert _unix timestamp_ or date string. You can also __calculate an interval__, example: _+1d or -5h (h:hour, d:day, w:week, m:month)._
 
-Press space bar to enter a date and __clicking on the date__ put content on the clipboard.
+--------------------
 
-![Date Convert](./assets/dateconvert.png "Convert Unix Timestamp and date with Mac OS X Launchbar")
+##LaunchBar Midnight Theme
+
+Midnight Theme for LaunchBar
+
+![Midnight LaunchBar Theme](./assets/launchbar-midnight-theme.png "Midnight LaunchBar Theme")
 
 ### Download
-Date Convert Action: [DateConvert.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/DateConvert.lbaction)
+Midnight LaunchBar Theme: [Midnight.lbtheme](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Midnight.lbtheme)
 
----
 
-<a name="sendtocopied"></a>
-## Send to Copied
+
+
+--------------------
+
+##Proxy Switch
+
+Display a list of user defined Proxy (json) and current status of Network Proxy Preferences (Ethernet).
+
+![Switch Proxy](./assets/proxyswitch.png "Switch Proxy on Mac OS X")
+
+### Installation
+Install and launch ``ProxySwitch.lbaction`` and edit ``UserProxy.json`` located in ``~/Library/Application Support/LaunchBar/Action Support/com.inspira.proxyswitch/``
+
+Action retrieve the __admin password__ from __Keychain__. Open Keychain app and add a new Generic Password named ```ProxySwitch```
+
+__Tip:__ Press [ALT] key when you click on the action will display the "Action Support" Folder
+
+
+### Define a proxy (UserProxy.json)
+* __title:__ Proxy Title.
+* __subtitle:__ Additional information.
+* __proxy_ip:__ IP Address.
+* __proxy_port:__ Port number.
+* __proxy_type:__ Type : web, https, ftp or socks.
+* __app:__ Application name or path to launch.
+
+### Download
+Switch Proxy Action: [ProxySwitch.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction)
+
+
+
+
+--------------------
+
+##Send to Copied
 
 Send Image or Text to Copied app [copiedapp.com](http://copiedapp.com/).
 
