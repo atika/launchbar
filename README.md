@@ -1,7 +1,7 @@
-# LaunchBar Actions and Themes Repo
-My LaunchBar 6 Repository for Actions/Themes.
+# LaunchBar Actions and Themes
+My Repository of Actions and Themes for LaunchBar 6.
 
-# Table of Content
+
 - [Bluetooth Audio](#bluetooth-audio)
      - [Requirements](#requirements)
      - [Download](#download)
@@ -15,7 +15,7 @@ My LaunchBar 6 Repository for Actions/Themes.
      - [Download](#download)
 - [Proxy Switch](#proxy-switch)
      - [Installation](#installation)
-     - [Define a proxy (UserProxy.json)](#define-a-proxy-(userproxy.json))
+     - [Define a proxy (UserProxy.json)](#define-a-proxy-userproxyjson)
      - [Download](#download)
 - [Send to Copied](#send-to-copied)
      - [Installation](#installation)
