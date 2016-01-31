@@ -2,6 +2,8 @@
 My Repository of Actions and Themes for LaunchBar 6.
 
 
+- [Application Reloader](#application-reloader)
+     - [Download](#download)
 - [Bluetooth Audio](#bluetooth-audio)
      - [Requirements](#requirements)
      - [Download](#download)
@@ -13,6 +15,8 @@ My Repository of Actions and Themes for LaunchBar 6.
      - [Download](#download)
 - [LaunchBar Midnight Theme](#launchbar-midnight-theme)
      - [Download](#download)
+- [Mac Promo Code](#mac-promo-code)
+     - [Download](#download)
 - [Proxy Switch](#proxy-switch)
      - [Installation](#installation)
      - [Define a proxy (UserProxy.json)](#define-a-proxy-userproxyjson)
@@ -20,6 +24,20 @@ My Repository of Actions and Themes for LaunchBar 6.
 - [Send to Copied](#send-to-copied)
      - [Installation](#installation)
      - [Download](#download)
+- [Unique Identifier](#unique-identifier)
+     - [Download](#download)
+
+
+
+
+--------------------
+
+##Application Reloader
+
+Quit and restart passed Mac Application.
+
+### Download
+Reload Mac App: [ReloadApplication.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ReloadApplication.lbaction)
 
 
 
@@ -146,6 +164,18 @@ Midnight LaunchBar Theme: [Midnight.lbtheme](https://dl.dropboxusercontent.com/u
 
 --------------------
 
+##Mac Promo Code
+
+Open the Mac App Store application to redeem a promo code.
+
+### Download
+Mac Promo Code: [MacPromoCode.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/MacPromoCode.lbaction)
+
+
+
+
+--------------------
+
 ##Proxy Switch
 
 Display a list of user defined Proxy (json) and current status of Network Proxy Preferences (Ethernet).
@@ -191,4 +221,16 @@ Doucle-click on ``SendToCopied.lbaction`` to install and:
 
 ### Download
 Send to Copied: [SendToCopied.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/SendToCopied.lbaction)
+
+
+
+
+--------------------
+
+##Unique Identifier
+
+Generate a 12 characters unique identifier.
+
+### Download
+UniqID Action: [UniqID.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/UniqID.lbaction)
 
