@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>ReloadTemplate.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.inspira.reload</string>
+	<key>CFBundleName</key>
+	<string>Reload Application</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Dominique Da Silva</string>
+		<key>LBChangelog</key>
+		<string></string>
+		<key>LBDownloadURL</key>
+		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ReloadApplication.lbaction</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBSummary</key>
+		<string>Quit and restart application.</string>
+		<key>LBTwitter</key>
+		<string>@domadp</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/atika/launchbar/master/ReloadApplication.lbaction/Contents/Info.plist</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/atika/launchbar</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>path</string>
+			</array>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>reload.sh</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
