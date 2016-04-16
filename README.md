@@ -21,6 +21,8 @@ My Repository of Actions and Themes for LaunchBar 6.
      - [Installation](#installation)
      - [Define a proxy (UserProxy.json)](#define-a-proxy-userproxyjson)
      - [Download](#download)
+- [Search in SnippetsLab](#search-in-snippetslab)
+     - [Download](#download)
 - [Send to Copied](#send-to-copied)
      - [Installation](#installation)
      - [Download](#download)
@@ -200,6 +202,24 @@ __Tip:__ Press [ALT] key when you click on the action will display the "Action S
 
 ### Download
 Switch Proxy Action: [ProxySwitch.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction)
+
+
+
+
+--------------------
+
+##Search in SnippetsLab
+
+Live Search in SnippetsLab from Launchbar.
+
+<!-- more -->
+
+![SnippetsLab Search](./assets/search-snippetslab-launchbar.png "Live search in SnippetsLab from LaunchBar")
+
+Press `ALT` to copy, click item to reveal in SnippetsLab
+
+### Download
+Search SnippetsLab Action: [SearchSnippetsLab.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/SearchSnippetsLab.lbaction)
 
 
 
