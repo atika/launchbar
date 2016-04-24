@@ -15,6 +15,8 @@ My Repository of Actions and Themes for LaunchBar 6.
      - [Download](#download)
 - [LaunchBar Midnight Theme](#launchbar-midnight-theme)
      - [Download](#download)
+- [Application Bundle Identifier](#application-bundle-identifier)
+     - [Download](#download)
 - [Mac Promo Code](#mac-promo-code)
      - [Download](#download)
 - [Proxy Switch](#proxy-switch)
@@ -160,6 +162,22 @@ Midnight Theme for LaunchBar
 
 ### Download
 Midnight LaunchBar Theme: [Midnight.lbtheme](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Midnight.lbtheme)
+
+
+
+
+--------------------
+
+##Application Bundle Identifier
+
+Get the bundle identifier of an application.
+
+<!-- more -->
+
+![App Bundle ID](./assets/app-bundle-id-launchbar.png "Get application bundle identifier")
+
+### Download
+App Bundle ID Action: [AppBundleID.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/AppBundleID.lbaction)
 
 
 

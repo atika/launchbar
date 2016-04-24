@@ -9,13 +9,15 @@
 	<key>CFBundleName</key>
 	<string>Search SnippetsLab</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>LBAbbreviation</key>
 	<string>snip</string>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
 		<string>Dominique Da Silva</string>
+		<key>LBDownloadURL</key>
+		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/SearchSnippetsLab.lbaction</string>
 		<key>LBEmail</key>
 		<string></string>
 		<key>LBRequirements</key>
@@ -24,11 +26,11 @@
 		<string>Live search in SnippetsLab. Click on the result to reveal in SnippetsLab and press ALT key to copy to the clipboard.</string>
 		<key>LBTwitter</key>
 		<string>@domadp</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/atika/launchbar/master/SearchSnippetsLab.lbaction/Contents/Info.plist</string>
 		<key>LBWebsiteURL</key>
 		<string>https://github.com/atika/launchbar</string>
 	</dict>
-	<key>LBDownloadURL</key>
-	<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/SearchSnippetsLab.lbaction</string>
 	<key>LBRequiredApplication</key>
 	<string>com.renfei.SnippetsLab</string>
 	<key>LBRequirements</key>
@@ -57,8 +59,6 @@
 	</dict>
 	<key>LBTextInputTitle</key>
 	<string>Search SnippetsLab</string>
-	<key>LBUpdateURL</key>
-	<string>https://raw.githubusercontent.com/atika/launchbar/master/SearchSnippetsLab.lbaction/Contents/Info.plist</string>
 	<key>LBWebsite</key>
 	<string>https://github.com/atika/launchbar</string>
 </dict>
