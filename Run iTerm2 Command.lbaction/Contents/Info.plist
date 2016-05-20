@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.inspira.runiterm2command</string>
+	<key>CFBundleName</key>
+	<string>Run iTerm2 Command</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>iterm</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.googlecode.iterm2</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Dominique Da Silva</string>
+		<key>LBChangelog</key>
+		<string></string>
+		<key>LBDownloadURL</key>
+		<string>https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Run%20iTerm2%20Command.lbaction</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBRequirements</key>
+		<string>Require iTerm 2.9 and earlier</string>
+		<key>LBSummary</key>
+		<string>Run iTerm2 command</string>
+		<key>LBTwitter</key>
+		<string>@domadp</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/atika/launchbar/master/Run%20iTerm2%20Command.lbaction/Contents/Info.plist</string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/atika/launchbar</string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>com.googlecode.iterm2</string>
+	<key>LBRequirements</key>
+	<string>Require iTerm 2.9 and earlier</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>RuniTerm2Command.scpt</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Run iTerm Command</string>
+</dict>
+</plist>

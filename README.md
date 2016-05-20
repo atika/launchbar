@@ -23,6 +23,8 @@ My Repository of Actions and Themes for LaunchBar 6.
      - [Installation](#installation)
      - [Define a proxy (UserProxy.json)](#define-a-proxy-userproxyjson)
      - [Download](#download)
+- [Run iTerm2 Command](#run-iterm2-command)
+     - [Download](#download)
 - [Search in SnippetsLab](#search-in-snippetslab)
      - [Download](#download)
 - [Send to Copied](#send-to-copied)
@@ -220,6 +222,22 @@ __Tip:__ Press [ALT] key when you click on the action will display the "Action S
 
 ### Download
 Switch Proxy Action: [ProxySwitch.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction)
+
+
+
+
+--------------------
+
+##Run iTerm2 Command
+
+Open iTerm2 and run a command (requires iTerm 2.9 and earlier).
+
+<!-- more -->
+
+![Run iTerm 2.9 command](./assets/run-iterm2-command-launchbar.png "Run iTerm2 command in LaunchBar")
+
+### Download
+Run iTerm2 Command action: [Run iTerm Command.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Run%20iTerm2%20Command.lbaction)
 
 
 
