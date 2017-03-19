@@ -38,7 +38,7 @@ My Repository of Actions and Themes for LaunchBar 6.
 
 --------------------
 
-##Application Reloader
+## Application Reloader
 
 Quit and restart passed Mac Application.
 
@@ -50,7 +50,7 @@ Reload Mac App: [ReloadApplication.lbaction](https://dl.dropboxusercontent.com/u
 
 --------------------
 
-##Bluetooth Audio
+## Bluetooth Audio
 
 List system paired Bluetooth Audio devices, connect and set system audio output. 
 
@@ -74,7 +74,7 @@ Bluetooth Audio Action: [BluetoothAudio.lbaction](https://dl.dropboxusercontent.
 
 --------------------
 
-##Date Convert
+## Date Convert
 
 Display date in __differents formats__ and convert _unix timestamp_ or date string. You can also __calculate an interval__, example: _+1d or -5h (h:hour, d:day, w:week, m:month)._
 
@@ -90,7 +90,7 @@ Date Convert Action: [DateConvert.lbaction](https://dl.dropboxusercontent.com/u/
 
 --------------------
 
-##Knock - Port Knocking
+## Knock - Port Knocking
 
 Knock server port with knock from LaunchBar
 
@@ -170,7 +170,7 @@ Midnight LaunchBar Theme: [Midnight.lbtheme](https://dl.dropboxusercontent.com/u
 
 --------------------
 
-##Application Bundle Identifier
+## Application Bundle Identifier
 
 Get the bundle identifier of an application.
 
@@ -186,7 +186,7 @@ App Bundle ID Action: [AppBundleID.lbaction](https://dl.dropboxusercontent.com/u
 
 --------------------
 
-##Mac Promo Code
+## Mac Promo Code
 
 Open the Mac App Store application to redeem a promo code.
 
@@ -198,7 +198,7 @@ Mac Promo Code: [MacPromoCode.lbaction](https://dl.dropboxusercontent.com/u/2440
 
 --------------------
 
-##Proxy Switch
+## Proxy Switch
 
 Display a list of user defined Proxy (json) and current status of Network Proxy Preferences (Ethernet).
 
@@ -228,7 +228,7 @@ Switch Proxy Action: [ProxySwitch.lbaction](https://dl.dropboxusercontent.com/u/
 
 --------------------
 
-##Run iTerm2 Command
+## Run iTerm2 Command
 
 Open iTerm2 and run a command (requires iTerm 2.9 and earlier).
 
@@ -244,7 +244,7 @@ Run iTerm2 Command action: [Run iTerm Command.lbaction](https://dl.dropboxuserco
 
 --------------------
 
-##Search in SnippetsLab
+## Search in SnippetsLab
 
 Live Search in SnippetsLab from Launchbar.
 
@@ -262,7 +262,7 @@ Search SnippetsLab Action: [SearchSnippetsLab.lbaction](https://dl.dropboxuserco
 
 --------------------
 
-##Send to Copied
+## Send to Copied
 
 Send Image or Text to Copied app [copiedapp.com](http://copiedapp.com/).
 
@@ -283,7 +283,7 @@ Send to Copied: [SendToCopied.lbaction](https://dl.dropboxusercontent.com/u/2440
 
 --------------------
 
-##Unique Identifier
+## Unique Identifier
 
 Generate a 12 characters unique identifier.
 
