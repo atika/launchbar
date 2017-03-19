@@ -35,7 +35,6 @@ My Repository of Actions and Themes for LaunchBar 6.
 
 
 
-
 --------------------
 
 ## Application Reloader
@@ -43,8 +42,7 @@ My Repository of Actions and Themes for LaunchBar 6.
 Quit and restart passed Mac Application.
 
 ### Download
-Reload Mac App: [ReloadApplication.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ReloadApplication.lbaction)
-
+Reload Mac App: [ReloadApplication.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/ReloadApplication.lbaction)
 
 
 
@@ -67,8 +65,7 @@ Install Switch Audio
 ```
 
 ### Download
-Bluetooth Audio Action: [BluetoothAudio.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/BluetoothAudio.lbaction)
-
+Bluetooth Audio Action: [BluetoothAudio.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/BluetoothAudio.lbaction)
 
 
 
@@ -83,8 +80,7 @@ Press space bar to enter a date and __clicking on the date__ put content on the 
 ![Date Convert](./assets/dateconvert.png "Convert Unix Timestamp and date with Mac OS X Launchbar")
 
 ### Download
-Date Convert Action: [DateConvert.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/DateConvert.lbaction)
-
+Date Convert Action: [DateConvert.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/DateConvert.lbaction)
 
 
 
@@ -149,22 +145,20 @@ or a sequence at root :
 ```
 
 ### Download
-Knock Action: [Knock.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Knock.lbaction)
-
+Knock Action: [Knock.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/Knock.lbaction)
 
 
 
 --------------------
 
-##LaunchBar Midnight Theme
+## LaunchBar Midnight Theme
 
 Midnight Theme for LaunchBar
 
 ![Midnight LaunchBar Theme](./assets/launchbar-midnight-theme.png "Midnight LaunchBar Theme")
 
 ### Download
-Midnight LaunchBar Theme: [Midnight.lbtheme](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Midnight.lbtheme)
-
+Midnight LaunchBar Theme: [Midnight.lbtheme](https://github.com/atika/launchbar/raw/master/actions-zipped/Midnight.lbtheme)
 
 
 
@@ -179,8 +173,7 @@ Get the bundle identifier of an application.
 ![App Bundle ID](./assets/app-bundle-id-launchbar.png "Get application bundle identifier")
 
 ### Download
-App Bundle ID Action: [AppBundleID.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/AppBundleID.lbaction)
-
+App Bundle ID Action: [AppBundleID.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/AppBundleID.lbaction)
 
 
 
@@ -191,8 +184,7 @@ App Bundle ID Action: [AppBundleID.lbaction](https://dl.dropboxusercontent.com/u
 Open the Mac App Store application to redeem a promo code.
 
 ### Download
-Mac Promo Code: [MacPromoCode.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/MacPromoCode.lbaction)
-
+Mac Promo Code: [MacPromoCode.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/MacPromoCode.lbaction)
 
 
 
@@ -221,8 +213,7 @@ __Tip:__ Press [ALT] key when you click on the action will display the "Action S
 * __app:__ Application name or path to launch.
 
 ### Download
-Switch Proxy Action: [ProxySwitch.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/ProxySwitch.lbaction)
-
+Switch Proxy Action: [ProxySwitch.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/ProxySwitch.lbaction)
 
 
 
@@ -237,8 +228,7 @@ Open iTerm2 and run a command (requires iTerm 2.9 and earlier).
 ![Run iTerm 2.9 command](./assets/run-iterm2-command-launchbar.png "Run iTerm2 command in LaunchBar")
 
 ### Download
-Run iTerm2 Command action: [Run iTerm Command.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/Run%20iTerm2%20Command.lbaction)
-
+Run iTerm2 Command action: [Run iTerm Command.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/Run%20iTerm2%20Command.lbaction)
 
 
 
@@ -255,8 +245,7 @@ Live Search in SnippetsLab from Launchbar.
 Press `ALT` to copy, click item to reveal in SnippetsLab
 
 ### Download
-Search SnippetsLab Action: [SearchSnippetsLab.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/SearchSnippetsLab.lbaction)
-
+Search SnippetsLab Action: [SearchSnippetsLab.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/SearchSnippetsLab.lbaction)
 
 
 
@@ -276,8 +265,7 @@ Doucle-click on ``SendToCopied.lbaction`` to install and:
 * Press enter to choose an Image file to send to Copied.
 
 ### Download
-Send to Copied: [SendToCopied.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/SendToCopied.lbaction)
-
+Send to Copied: [SendToCopied.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/SendToCopied.lbaction)
 
 
 
@@ -288,5 +276,5 @@ Send to Copied: [SendToCopied.lbaction](https://dl.dropboxusercontent.com/u/2440
 Generate a 12 characters unique identifier.
 
 ### Download
-UniqID Action: [UniqID.lbaction](https://dl.dropboxusercontent.com/u/24409293/LaunchBar/UniqID.lbaction)
+UniqID Action: [UniqID.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/UniqID.lbaction)
 
