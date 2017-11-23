@@ -2,22 +2,23 @@
 My Repository of Actions and Themes for LaunchBar 6.
 
 
-- [Application Reloader](#application-reloader)
-     - [Download](#download)
-- [Bluetooth Audio](#bluetooth-audio)
-     - [Requirements](#requirements)
-     - [Download](#download)
-- [Date Convert](#date-convert)
-     - [Download](#download)
 - [Knock - Port Knocking](#knock---port-knocking)
      - [Requirements](#requirements)
      - [Define a sequence](#define-a-sequence)
      - [Download](#download)
+- [Unique Identifier](#unique-identifier)
+     - [Download](#download)
+- [Application Reloader](#application-reloader)
+     - [Download](#download)
+- [Search in SnippetsLab](#search-in-snippetslab)
+     - [Download](#download)
 - [LaunchBar Midnight Theme](#launchbar-midnight-theme)
      - [Download](#download)
-- [Application Bundle Identifier](#application-bundle-identifier)
+- [Bluetooth Audio](#bluetooth-audio)
+     - [Requirements](#requirements)
      - [Download](#download)
-- [Mac Promo Code](#mac-promo-code)
+- [Send to Copied](#send-to-copied)
+     - [Installation](#installation)
      - [Download](#download)
 - [Proxy Switch](#proxy-switch)
      - [Installation](#installation)
@@ -25,62 +26,12 @@ My Repository of Actions and Themes for LaunchBar 6.
      - [Download](#download)
 - [Run iTerm2 Command](#run-iterm2-command)
      - [Download](#download)
-- [Search in SnippetsLab](#search-in-snippetslab)
+- [Date Convert](#date-convert)
      - [Download](#download)
-- [Send to Copied](#send-to-copied)
-     - [Installation](#installation)
+- [Application Bundle Identifier](#application-bundle-identifier)
      - [Download](#download)
-- [Unique Identifier](#unique-identifier)
+- [Mac Promo Code](#mac-promo-code)
      - [Download](#download)
-
-
-
---------------------
-
-## Application Reloader
-
-Quit and restart passed Mac Application.
-
-### Download
-Reload Mac App: [ReloadApplication.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/ReloadApplication.lbaction)
-
-
-
---------------------
-
-## Bluetooth Audio
-
-List system paired Bluetooth Audio devices, connect and set system audio output. 
-
-![Bluetooth Audio](./assets/bluetoothaudio.png "Switch audio bluetooth source on Mac OS X")
-
-Press __[ALT] key__ to disconnect bluetooth device.
-
-### Requirements
-
-Install Switch Audio
-[https://github.com/deweller/switchaudio-osx](https://github.com/deweller/switchaudio-osx)
-```shell
-    brew install switchaudio-osx
-```
-
-### Download
-Bluetooth Audio Action: [BluetoothAudio.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/BluetoothAudio.lbaction)
-
-
-
---------------------
-
-## Date Convert
-
-Display date in __differents formats__ and convert _unix timestamp_ or date string. You can also __calculate an interval__, example: _+1d or -5h (h:hour, d:day, w:week, m:month)._
-
-Press space bar to enter a date and __clicking on the date__ put content on the clipboard.
-
-![Date Convert](./assets/dateconvert.png "Convert Unix Timestamp and date with Mac OS X Launchbar")
-
-### Download
-Date Convert Action: [DateConvert.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/DateConvert.lbaction)
 
 
 
@@ -151,6 +102,47 @@ Knock Action: [Knock.lbaction](https://github.com/atika/launchbar/raw/master/act
 
 --------------------
 
+## Unique Identifier
+
+Generate a 12 characters unique identifier.
+
+### Download
+UniqID Action: [UniqID.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/UniqID.lbaction)
+
+
+
+--------------------
+
+## Application Reloader
+
+Quit and restart passed Mac Application.
+
+### Download
+Reload Mac App: [ReloadApplication.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/ReloadApplication.lbaction)
+
+
+
+--------------------
+
+## Search in SnippetsLab
+
+Live Search in SnippetsLab from Launchbar.
+
+<!-- more -->
+
+![SnippetsLab Search](./assets/search-snippetslab-launchbar.png "Live search in SnippetsLab from LaunchBar")
+
+> **Important:** This action __stopped working__, the developer added a verification directly into the app SnippetsLab to accept **request only from the Alfred app**. 
+
+Press `ALT` to copy, click item to reveal in SnippetsLab
+
+### Download
+Search SnippetsLab Action: [SearchSnippetsLab.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/SearchSnippetsLab.lbaction)
+
+
+
+--------------------
+
 ## LaunchBar Midnight Theme
 
 Midnight Theme for LaunchBar
@@ -164,27 +156,44 @@ Midnight LaunchBar Theme: [Midnight.lbtheme](https://github.com/atika/launchbar/
 
 --------------------
 
-## Application Bundle Identifier
+## Bluetooth Audio
 
-Get the bundle identifier of an application.
+List system paired Bluetooth Audio devices, connect and set system audio output. 
 
-<!-- more -->
+![Bluetooth Audio](./assets/bluetoothaudio.png "Switch audio bluetooth source on Mac OS X")
 
-![App Bundle ID](./assets/app-bundle-id-launchbar.png "Get application bundle identifier")
+Press __[ALT] key__ to disconnect bluetooth device.
+
+### Requirements
+
+Install Switch Audio
+[https://github.com/deweller/switchaudio-osx](https://github.com/deweller/switchaudio-osx)
+```shell
+    brew install switchaudio-osx
+```
 
 ### Download
-App Bundle ID Action: [AppBundleID.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/AppBundleID.lbaction)
+Bluetooth Audio Action: [BluetoothAudio.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/BluetoothAudio.lbaction)
 
 
 
 --------------------
 
-## Mac Promo Code
+## Send to Copied
 
-Open the Mac App Store application to redeem a promo code.
+Send Image or Text to Copied app [copiedapp.com](http://copiedapp.com/).
+
+![Send to Copied](./assets/sendtocopiedapp.png "Send to Copied app for Mac OS X")
+
+### Installation
+Doucle-click on ``SendToCopied.lbaction`` to install and:
+
+* Send Text or Image file with **LaunchBar Instant Send** to "Send to Copied" action.
+* Press space to Enter text to copy.
+* Press enter to choose an Image file to send to Copied.
 
 ### Download
-Mac Promo Code: [MacPromoCode.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/MacPromoCode.lbaction)
+Send to Copied: [SendToCopied.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/SendToCopied.lbaction)
 
 
 
@@ -234,47 +243,40 @@ Run iTerm2 Command action: [Run iTerm Command.lbaction](https://github.com/atika
 
 --------------------
 
-## Search in SnippetsLab
+## Date Convert
 
-Live Search in SnippetsLab from Launchbar.
+Display date in __differents formats__ and convert _unix timestamp_ or date string. You can also __calculate an interval__, example: _+1d or -5h (h:hour, d:day, w:week, m:month)._
+
+Press space bar to enter a date and __clicking on the date__ put content on the clipboard.
+
+![Date Convert](./assets/dateconvert.png "Convert Unix Timestamp and date with Mac OS X Launchbar")
+
+### Download
+Date Convert Action: [DateConvert.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/DateConvert.lbaction)
+
+
+
+--------------------
+
+## Application Bundle Identifier
+
+Get the bundle identifier of an application.
 
 <!-- more -->
 
-![SnippetsLab Search](./assets/search-snippetslab-launchbar.png "Live search in SnippetsLab from LaunchBar")
-
-Press `ALT` to copy, click item to reveal in SnippetsLab
+![App Bundle ID](./assets/app-bundle-id-launchbar.png "Get application bundle identifier")
 
 ### Download
-Search SnippetsLab Action: [SearchSnippetsLab.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/SearchSnippetsLab.lbaction)
+App Bundle ID Action: [AppBundleID.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/AppBundleID.lbaction)
 
 
 
 --------------------
 
-## Send to Copied
+## Mac Promo Code
 
-Send Image or Text to Copied app [copiedapp.com](http://copiedapp.com/).
-
-![Send to Copied](./assets/sendtocopiedapp.png "Send to Copied app for Mac OS X")
-
-### Installation
-Doucle-click on ``SendToCopied.lbaction`` to install and:
-
-* Send Text or Image file with **LaunchBar Instant Send** to "Send to Copied" action.
-* Press space to Enter text to copy.
-* Press enter to choose an Image file to send to Copied.
+Open the Mac App Store application to redeem a promo code.
 
 ### Download
-Send to Copied: [SendToCopied.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/SendToCopied.lbaction)
-
-
-
---------------------
-
-## Unique Identifier
-
-Generate a 12 characters unique identifier.
-
-### Download
-UniqID Action: [UniqID.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/UniqID.lbaction)
+Mac Promo Code: [MacPromoCode.lbaction](https://github.com/atika/launchbar/raw/master/actions-zipped/MacPromoCode.lbaction)
 
