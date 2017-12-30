@@ -1,9 +1,8 @@
-# 
+#
 #	Date Convert Action for LaunchBar 6
 #   Convert date string or unix timestamp end display in different format
 # 	Dominique Da Silva https://github.com/atika
 # 	January 2015
-#   v1.0
 #
 
 require 'date'
@@ -54,7 +53,7 @@ class UnixDate
 	end
 
 	def to_json
-		
+
 		json_result = Array.new
 
 		if ! @error.nil?
@@ -64,6 +63,7 @@ class UnixDate
 			json_result.push({'title'=> @thedate.strftime("%A %d %B %Y"), 'subtitle'=>'Day', 'icon'=>'CopyActionTemplate.pdf', 'action'=>'CopyClipboard.rb', "actionReturnsItems"=> false })
 			json_result.push({'title'=> @thedate.strftime("%H:%M:%S"), 'subtitle'=>'Time', 'icon'=>'CopyActionTemplate.pdf', 'action'=>'CopyClipboard.rb', "actionReturnsItems"=> false })
 			json_result.push({'title'=> @thedate.strftime("%s"), 'subtitle'=>'Unix Timestamp', 'icon'=>'CopyActionTemplate.pdf', 'action'=>'CopyClipboard.rb', "actionReturnsItems"=> false })
+			json_result.push({'title'=> @thedate.strftime("%Y-%m-%dT%H:%M:%S%Z"), 'subtitle'=>'DateTime', 'icon'=>'CopyActionTemplate.pdf', 'action'=>'CopyClipboard.rb', "actionReturnsItems"=> false })
 			json_result.push({'title'=> "UTC"+@thedate.zone, 'subtitle'=>'TimeZone', 'icon'=>'CopyActionTemplate.pdf', 'action'=>'CopyClipboard.rb', "actionReturnsItems"=> false })
 
 			# comparaison
@@ -91,10 +91,10 @@ class UnixDate
 				cmpdate += "s" if cmpdate.to_i > 1
 				json_result.push({'title'=> "It was #{cmpdate} ago.", 'subtitle'=>'Interval', 'icon'=>'CopyActionTemplate.pdf', 'action'=>'CopyClipboard.rb', "actionReturnsItems"=> false }) if !cmpdate.empty?
 			end
-				
+
 			# format
 			username ||= IO.popen('git config --get user.name').gets
-			username ||= ENV['USER'] 
+			username ||= ENV['USER']
 			username ||= "You"
 
 			json_result.push({
@@ -124,5 +124,3 @@ end
 thedate = ARGV[0]
 ud = UnixDate.new(thedate)
 puts ud.to_json
-
-

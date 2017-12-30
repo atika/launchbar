@@ -9,7 +9,7 @@
 	<key>CFBundleName</key>
 	<string>Date Convert</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.2</string>
+	<string>1.0.3</string>
 	<key>LBAbbreviation</key>
 	<string>unix timestamp interval</string>
 	<key>LBDebugLogEnabled</key>
