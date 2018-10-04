@@ -132,7 +132,7 @@ Live Search in SnippetsLab from Launchbar.
 
 ![SnippetsLab Search](./assets/search-snippetslab-launchbar.png "Live search in SnippetsLab from LaunchBar")
 
-> **Important:** This action __stopped working__, the developer added a verification directly into the app SnippetsLab to accept **request only from the Alfred app**. 
+<!-- **Important:** The developer added a verification directly into the app SnippetsLab to accept **request only from the Alfred app**. -->
 
 Press `ALT` to copy, click item to reveal in SnippetsLab
 
