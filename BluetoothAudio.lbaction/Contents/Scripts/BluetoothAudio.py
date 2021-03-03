@@ -20,9 +20,19 @@ from IOBluetooth import *
 menu = []
 cmdkey = os.environ.get('LB_OPTION_ALTERNATE_KEY')
 
-switchaudiotest=os.system('test -x /usr/local/bin/SwitchAudioSource')
+platform = os.popen('uname -m').read()
+
+if "arm64" in platform:
+	path = '/opt/homebrew/bin/'
+else:
+	path = '/usr/local/bin/'
+
+switchaudiotest=os.system('test -x %sSwitchAudioSource' % path)
+
 if switchaudiotest != 0:
-	menu.append({"title":"SwitchAudio not found", "subtitle":"Please install SwitchAudio : brew install switchaudio-osx", "icon": "BottomBarStopTemplate.pdf"})	
+    menu.append({"title":"SwitchAudio not found", "subtitle":"Please install SwitchAudio : brew install switchaudio-osx", "icon": "BottomBarStopTemplate.pdf"})	
+    menu.append({"title":"Platform: %s" % (platform)})
+    menu.append({"title": "Using path: %s" % (path)})	
 
 # NSUserNotification
 def notify(title, subtitle, info_text, delay=0, sound=False, userInfo={}):
@@ -54,7 +64,7 @@ if len(sys.argv) > 1:
 			# Connect device and set system audio output
 			device.openConnection()
 			time.sleep(1)
-			result = os.system('/usr/local/bin/SwitchAudioSource -s "%s" >/dev/null' % (myitem['name']) )
+			result = os.system('%sSwitchAudioSource -s "%s" >/dev/null' % (path, myitem['name']) )
 			if result != 0:
 				notify("LaunchBar Error", "Error when switching audio output to "+myitem['name'],"",0, sound=False)
 			else:
