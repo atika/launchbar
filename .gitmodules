@@ -1,9 +1,6 @@
 [submodule "prenagha-actions"]
 	path = actions-by-prenagha
 	url = https://github.com/prenagha/launchbar
-[submodule "nbjahan-actions"]
-	path = actions-by-nbjahan
-	url = https://github.com/nbjahan/launchbar-actions
 [submodule "facetheheat-actions"]
 	path = actions-by-facetheheat
 	url = https://github.com/facetheheat/LaunchBar/
