@@ -65,33 +65,34 @@ brew install knock
 
 ```json
 [
-    {
-    "title": "Raspberry",
-    "server_ip": "192.168.0.50",
-    "children": [
-        {
-            "title": "My knock command",
-            "sequence": "5000:tcp,7000:tcp,6000:tcp",
-            "delay": 300,
-            "app":"MyAppToLaunch"
-        },
-        {
-            "title": "...",
-            "sequence": "..."
-        }
-    }
+	{
+		"title": "Raspberry",
+		"server_ip": "192.168.0.50",
+		"children": [
+			{
+					"title": "My knock command",
+					"sequence": "5000:tcp,7000:tcp,6000:tcp",
+					"delay": 300,
+					"app":"MyAppToLaunch"
+			},
+			{
+					"title": "...",
+					"sequence": "..."
+			}
+		]
+	}
 ]
 ```
 or a sequence at root :
 ```json
 [
-    {
-        "title": "My knock command",
-        "server_ip": "192.168.0.50",
-        "sequence": "5000:tcp,7000:tcp,6000:tcp",
-        "delay": 300,
-        "app":"MyAppToLaunch"
-    }
+	{
+		"title": "My knock command",
+		"server_ip": "192.168.0.50",
+		"sequence": "5000:tcp,7000:tcp,6000:tcp",
+		"delay": 300,
+		"app":"MyAppToLaunch"
+	}
 ]
 ```
 
